@@ -11,8 +11,8 @@ body {
 }
 
 .main {
-    background-color: green;
     height: calc(100vh - 70px);
+    display: flex;
 }
 
 .header_left {
@@ -65,4 +65,69 @@ body {
 .header_right span {
     margin:10px;
     font-size: 200%;
+}
+
+.sidebar {
+    width: 230px;
+}
+
+.videos {
+    width: 100%;
+    overflow-y: scroll;
+}
+
+.sidebar-category {
+    display: flex;
+    align-items: center;
+    padding: 12px 25px;
+}
+
+.sidebar-category span {
+    margin-right: 15px;
+}
+
+.video {
+    width: 310px;
+    margin: 10px;
+}
+
+.video-thumbnail {
+    width: 100%;
+    height: 170px;
+}
+
+.video-thumbnail img {
+    height: 100%;
+    width: 100%;
+}
+
+.channel img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.video-detail {
+    display: flex;
+    margin-top: 10px;
+}
+
+.video-description h3 {
+    margin: 0;
+}
+
+.video-description {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.video-description a{
+    text-decoration: none;
+    color: black;
+}
+
+.video-container {
+    display: flex;
+    flex-wrap: wrap;
 }
