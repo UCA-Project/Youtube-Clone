@@ -44,6 +44,13 @@ body {
     height: 100%;
 }
 
+.header_mid input:hover {
+    width: 500px;
+    border: none;
+    height: 100%;
+    background-color: yellow;
+}
+
 .header_left .material-icons {
     font-size: 200%;
 }
